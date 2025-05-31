@@ -26,7 +26,7 @@ public class VanillaItems {
 
         new VanillaItem(Categories.EL_VANILLA, new ItemStack(Material.GRAVEL), "GRAVEL", RecipeTypes.HAMMER_BREAK, new ItemStack[]{
                 null, null, null,
-                null, new CustomItemStack(new ItemStack(Material.STONE), "&7Every Stone Variant"), null,
+                null, new CustomItemStack(new ItemStack(Material.STONE), "&7所有种类的石头"), null,
                 null, null, null
         }).register(el);
 

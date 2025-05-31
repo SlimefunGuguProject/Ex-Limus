@@ -104,9 +104,9 @@ public final class Items {
                 new ItemStack(Material.STICK), null, new ItemStack(Material.STONE)}).register(el);
 
         new ReinforcedHammer(Categories.EL_TOOLS, REINFORCED_HAMMER, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
-                new ItemStack(Material.STONE), new ItemStack(Material.STONE), new ItemStack(Material.STONE),
-                null, new ItemStack(Material.STICK), new ItemStack(Material.STONE),
-                new ItemStack(Material.STICK), null, new ItemStack(Material.STONE)}).register(el);
+                new ItemStack(Material.IRON_INGOT), new ItemStack(Material.IRON_INGOT), new ItemStack(Material.IRON_INGOT),
+                null, new ItemStack(Material.STICK), new ItemStack(Material.IRON_INGOT),
+                new ItemStack(Material.STICK), null, new ItemStack(Material.IRON_INGOT)}).register(el);
 
         new WoodenKama(Categories.EL_TOOLS, WOODEN_KAMA, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[]{
                 new ItemStack(Material.OAK_SLAB), new ItemStack(Material.STICK), null,
